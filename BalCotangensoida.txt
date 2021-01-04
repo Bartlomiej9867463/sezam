@@ -1,0 +1,9 @@
+% Cosinusoida
+
+x=0:0.10:2*pi;
+y=  cos(x);
+plot(x,y, 'Color', 'red')
+title('Cosinusoida cos\alpha')
+set(gcf, 'Color', 'yellow')
+axis on
+legend('cos\alpha')
